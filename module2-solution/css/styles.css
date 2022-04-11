@@ -1,4 +1,9 @@
+*
+{
+	box-sizing: border-box;
+}
 h1
 {
+	margin-bottom: 50px;
 	text-align: center;
 }
