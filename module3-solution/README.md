@@ -1,3 +1,3 @@
 # coursera-test
 Module 3 repository}
-### To check solution [click here](https://aashishn19.github.io/coursera-test/module2-solution/){:target="_blank"}.
+### To check solution [click here](https://aashishn19.github.io/coursera-test/module3-solution/){:target="_blank"}.
