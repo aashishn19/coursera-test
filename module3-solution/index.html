@@ -3,8 +3,8 @@
 <head>
 	<title>assignment Solution for Module 3</title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.7/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 	<link rel="stylesheet" type="text/css" href="./css/styles.css"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,11 +19,11 @@
 				</button>
 				<a class="navbar-brand" href="#">Food, LLC</a>
 			</div>
-			<div class="collapse" id="myNavbar">
+			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav visible-xs">
-					<li><a class="menu-item" href=".chicken"><span class="glyphicon glyphicon-hand-right"></span>Chicken</a></li>
-					<li><a class="menu-item" href=".beef"><span class="glyphicon glyphicon-hand-right"></span>Beef</a></li>
-					<li><a class="menu-item" href=".sushi"><span class="glyphicon glyphicon-hand-right"></span>Sushi</a></li>
+					<li><a class="menu-item" href="#chicken"><span class="glyphicon glyphicon-hand-right"></span>Chicken</a></li>
+					<li><a class="menu-item" href="#beef"><span class="glyphicon glyphicon-hand-right"></span>Beef</a></li>
+					<li><a class="menu-item" href="#sushi"><span class="glyphicon glyphicon-hand-right"></span>Sushi</a></li>
 				</ul>
 			</div>
 		</div>
@@ -32,7 +32,7 @@
 	<div class="row">
 		<div class="col-lg-4 col-md-6 col-sm-12">
 			<div class="content-box">
-			<div class="chicken">Chicken</div>
+			<div class="chicken" id="chicken">Chicken</div>
 			<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			<a href="#top">(backto top)</a>
 			</p>
@@ -40,7 +40,7 @@
 		</div>
 		<div class="col-lg-4 col-md-6 col-sm-12">
 			<div class="content-box">
-			<div class="beef">Beef</div>
+			<div class="beef" id="beef">Beef</div>
 			<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			<a href="#top">(backto top)</a>
 			</p>
@@ -48,7 +48,7 @@
 		</div>
 		<div class="col-lg-4 col-md-12 col-sm-12">
 			<div class="content-box">
-			<div class="sushi">Sushi</div>
+			<div class="sushi" id="sushi">Sushi</div>
 			<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			<a href="#top">(backto top)</a>
 			</p>
